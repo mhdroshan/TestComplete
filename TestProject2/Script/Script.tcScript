@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="startTest" key="{B0C8613D-1FBB-4653-83D2-FF40F7111F48}" path="startTest.js" />
+		<child name="sasTest" key="{275E12C0-0F9C-46D8-B159-134C775DA383}" path="sasTest.js" />
+		<child name="PrePurchase" key="{8495766A-69B0-4EB7-967D-DAE9254255AC}" path="PrePurchase.js" />
+		<child name="Unit1" key="{1409FF63-32C6-4F24-8BA7-941919104888}" path="Unit1.js" />
+		<child name="startTestNew" key="{D506598D-39A5-4FB1-B9F4-5E12C3284673}" path="startTestNew.js" />
+		<child name="sasTestNew" key="{DDD77B31-AE8D-4C84-8675-547964442F1E}" path="sasTestNew.js" />
+		<child name="PrePurchaseNew" key="{EC553628-1A98-4A21-9128-75D82671F880}" path="PrePurchaseNew.js" />
+		<child name="PrePurchase1" key="{76762EA4-D214-4281-B045-F0886413192C}" path="PrePurchase1.js" />
+		<child name="CartValidation" key="{EAD50381-B3B8-40B5-8A25-15E956A3CCB6}" path="CartValidation.js" />
+		<child name="CampaignRead" key="{D06A9083-BEA5-4D04-A36E-80C3C12C88ED}" path="CampaignRead.js" />
+		<child name="CampaignDataCapture" key="{7CD211DA-CAF5-4D75-B75D-A24D8368E35A}" path="CampaignDataCapture.js" />
+		<child name="PerformSasTest" key="{CB548DB8-6009-45BF-BD7E-656BCA85B1BD}" path="PerformSasTest.js" />
+		<child name="PerformTestCasePermutation" key="{91CAADC1-FB34-4F14-8F1E-7865DD07B6E5}" path="PerformTestCasePermutation.js" />
+		<child name="EventSelections" key="{A6DF5D54-A606-443D-9007-9A7C2FCAB303}" path="EventSelections.js" />
+		<child name="Unit2" key="{091BF2D1-29EC-4B7F-8682-57F4B29B2AFF}" path="Unit2.js" />
+		<child name="CustomObject" key="{B4DB8386-CE4E-4475-B744-007268D439AB}" path="CustomObject.js" />
+	</children>
+</Root>

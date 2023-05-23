@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B30CD758-D59D-4A72-97FE-8D5887EDBAB3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C2DD3ECE-F923-4620-981E-724F51ABAADE}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{BD08F174-8C88-4518-AB04-27682D2EFC06}">
+								<Image FileName="1691437578" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{6325BCB7-EE1F-4450-BB73-53F0E3AA7FA9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWwwMeaningfulbeautyOdev09Dw4" Key="{387E1F8B-A235-4629-AEDE-AAC976D2007E}">
+								<Image FileName="201316868" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.odev09.dw4.grdev.com/skincare/sas/core/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkSelect" Key="{1223F1BF-4148-4062-85BA-2EA5FDB9CC96}">
+										<Image FileName="201316868" Left="969" Top="517" Right="1023" Bottom="561" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a[@role=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a[contains(@class, &apos;check-selection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sasSystem&apos;]//div[2]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSelect3" Key="{D834690F-CBB0-4AE5-9C66-FC4077B78644}">
+										<Image FileName="742048733" Left="469" Top="358" Right="523" Bottom="402" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[3]//div//a[contains(@class, &apos;check-selection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]//div[3]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[@id=&apos;sasSystem&apos;]/div[3]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSelect2" Key="{10E3BD9D-E399-4377-A5C6-F089950F58D8}">
+										<Image FileName="135934251" Left="969" Top="358" Right="1023" Bottom="402" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[3]//div[2]//a[contains(@class, &apos;check-selection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;sasSystem&quot;]/div[3]/div/div[3]/div/div/div/div[2]/div/div[1]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProceedToCheckout" Key="{B93AE99C-1C8D-4A1F-A0FE-3CFE4C73CC6C}">
+										<Image FileName="1969311690" Left="754" Top="932" Right="1145" Bottom="1020" />
+										<TypeInfo Item0="{CE36E76F-6295-43A3-AC6B-D2E9B991E3C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[7]/button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Proceed To Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[7]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{2FE3C9C5-DF7A-4BA1-B22C-5284FC4C1086}">
+										<Image FileName="771951148" Left="1583" Top="166" Right="1603" Bottom="185" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;You have added 2 items to shopping cart.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/a[contains(@class, &apos;mini-cart-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;campaign-header&apos;]//div[6]/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[2]/div[6]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{723430BC-B07C-42FB-8675-256531E6D6AE}">
+										<Image FileName="242380536" Left="1583" Top="163" Right="1603" Bottom="186" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[6]//a/i[contains(@class, &apos;fal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;campaign-header&apos;]//div[6]//a/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{FFF0792E-AB27-4B9E-BDB3-BC808A9A626B}">
+										<Image FileName="-908564472" Left="1851" Top="269" Right="1874" Bottom="298" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;slidecart-remove&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mini-cart&apos;]//div[@role=&apos;dialog&apos;]/div[2]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{180C8916-CF75-41D4-830B-91FF2A23763F}">
+										<Image FileName="-908564472" Left="1856" Top="273" Right="1870" Bottom="293" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div/a/i[contains(@class, &apos;fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mini-cart&apos;]//div[@role=&apos;dialog&apos;]/div[2]/div/div/a/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode22" Key="{41C36C13-BECD-434A-A9F2-ABF9B3DF7930}">
+										<Image FileName="-176681749" Left="1593" Top="150" Right="1620" Bottom="177" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;minicart-quantity&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mini-cart&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMyDrive" Key="{BCB0D042-12C9-4F87-A382-4D4C9F2EE010}">
+								<Image FileName="1146860768" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://drive.google.com/drive/my-drive" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelExcelSampledataXlsx" Key="{B2B17C02-60C6-40F2-8EB2-F1F4C92821A4}">
+										<Image FileName="1146860768" Left="417" Top="695" Right="548" Bottom="717" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;KL4NAf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{86EA778F-6E60-47E4-9CA8-C31843B31029}">
+										<Image FileName="-268235463" Left="0" Top="88" Right="1920" Bottom="1030" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;Q5UMwc&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{6DBE8C14-1FF0-4177-BC68-AF184EA96CBA}">
+										<Image FileName="1147941860" Left="1360" Top="694" Right="1383" Bottom="717" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;Ma-SdkFre-qd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[6]/div[@role=&apos;button&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSampledataXlsx" Key="{3FF171C0-B30B-464B-A676-0BC28E6C00C8}">
+										<Image FileName="2060470596" Left="417" Top="681" Right="869" Bottom="731" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;tyTrke&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDownload" Key="{38BE72EA-F7CA-437C-B8DD-D83B77B181DE}">
+										<Image FileName="-962509007" Left="769" Top="905" Right="1059" Bottom="945" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[41]/div/span/div[contains(@class, &apos;a-v-T&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[41]/div/span/div[@aria-label=&apos;Download&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDownload2" Key="{D325B5A2-F878-4FE2-A608-303D97BAFB41}">
+										<Image FileName="1168046785" Left="1429" Top="609" Right="1719" Bottom="649" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[39]/div/span/div[@aria-label=&apos;Download&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[39]/div/span/div[contains(@class, &apos;a-v-T&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSampledataXlsxGoogleSheets" Key="{34C98AEB-A3B0-487A-94A3-639158A1C90A}">
+								<Image FileName="-1015458740" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://docs.google.com/spreadsheets/d/1842Ot4-KpD2IvTxWpwgpR_cLdyc4PV-j/edit*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxRename" Key="{07F3897D-4479-4472-A142-A53C3BA56D6D}">
+										<Image FileName="-1015458740" Left="68" Top="98" Right="212" Bottom="128" />
+										<TypeInfo Item0="{60D4BF74-5497-4546-ADDF-97C99CFFBDD6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-describedby=&apos;docs-parent-collections-container-outer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{10E56978-158A-4868-AFED-3132C6E546DE}">
+										<Image FileName="1234371159" Left="0" Top="265" Right="58" Bottom="295" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;docs-editor&apos;]//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{8F1C6BF9-B11F-41A0-A17E-F51A3C05DBCF}">
+								<Image FileName="-1619324704" Left="0" Top="0" Right="1920" Bottom="50" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{3C85C3B2-7318-42DE-B0AB-D32BFAD7CDE3}">
+										<Image FileName="-1619324704" Left="478" Top="0" Right="1277" Bottom="50" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{5ADEA72D-9137-4DF3-8070-6B1881B64867}">
+												<Image FileName="-1619324704" Left="480" Top="0" Right="1277" Bottom="50" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{FCE61635-B422-41BF-9200-8C3344DDA82B}">
+														<Image FileName="-1619324704" Left="480" Top="0" Right="1277" Bottom="50" />
+														<TypeInfo Item0="{F8FE55D3-0101-4929-BA9F-45AEC4191BDA}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{734EB609-436A-434A-961D-750A02C17E8D}">
+								<Image FileName="71724690" Left="0" Top="0" Right="1920" Bottom="256" />
+								<TypeInfo Item0="{C0D14A71-0FA9-4583-BF50-9F7A3F520187}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMeaningfulBeautyCindyCrawfor" Key="{5B7054D6-D6A2-4F05-B92E-6E2C15063331}">
+								<Image FileName="-1106373265" Left="0" Top="88" Right="1920" Bottom="958" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.odev09.dw4.grdev.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLearnMore" Key="{29DEAF8B-1C40-47AA-BF1E-7B07DCB8C186}">
+										<Image FileName="-873132859" Left="1346" Top="672" Right="1693" Bottom="765" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;LEARN MORE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/div[2]/div/a[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]//div[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/div[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Login" Key="{67FA6444-90C9-4DF1-8566-7BA527B7EFD3}">
+										<Image FileName="-616047711" Left="671" Top="77" Right="1249" Bottom="383" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Login" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxUsername" Key="{1E5A50DB-C684-45B8-98A5-116867A29584}">
+												<Image FileName="-616047711" Left="782" Top="186" Right="1220" Bottom="227" />
+												<TypeInfo Item0="{C458F4B8-5DF2-4A7E-B718-996DD08AF78B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="UserName" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxPassword" Key="{746AB7BB-B6BA-4A39-AB5E-ED1A4B376981}">
+												<Image FileName="-1204908057" Left="782" Top="241" Right="1220" Bottom="282" />
+												<TypeInfo Item0="{C458F4B8-5DF2-4A7E-B718-996DD08AF78B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Password" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUpgrade" Key="{C16370A0-94FA-4A3E-AAB3-1D721EAAD7B8}">
+								<Image FileName="2036988129" Left="0" Top="128" Right="1920" Bottom="1030" />
+								<TypeInfo Item0="{9E15B807-D195-4911-A3DF-3920384C6C0A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.odev09.dw4.grdev.com/upgrade" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formCompleteYour" Key="{346444E1-4F26-4FDD-80EC-4EB54D47091E}">
+										<Image FileName="960467807" Left="0" Top="234" Right="1899" Bottom="3014" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Complete Your&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;suppress&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNoThanks" Key="{F45E3A4B-63F1-4373-95F5-07977CAB7EEE}">
+										<Image FileName="960467807" Left="1216" Top="831" Right="1333" Bottom="858" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#no-upgrade" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;No, thanks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//form//div[2]//a[contains(@class, &apos;noupgradebtn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUpgradeNow" Key="{12F8E799-17D2-4A8C-A4BC-323969EDE514}">
+										<Image FileName="-433098151" Left="1083" Top="660" Right="1402" Bottom="727" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#subscribe-to-save" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;UPGRADE NOW&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//form//a[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//form//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCart" Key="{9617CC98-19FA-46D5-96A7-70E6E9B6E22F}">
+								<Image FileName="2036988129" Left="0" Top="128" Right="1920" Bottom="1030" />
+								<TypeInfo Item0="{9E15B807-D195-4911-A3DF-3920384C6C0A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.odev09.dw4.grdev.com/cart" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMain" Key="{E810AF4B-B5C4-45C5-A423-F8895ADD978A}">
+										<Image FileName="-1167029911" Left="0" Top="-556" Right="1899" Bottom="1030" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[contains(., &apos;Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[contains(@class, &apos;cart-main&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4995" Key="{21A416E0-D967-4EF9-B091-492DA1C980C1}">
+										<Image FileName="-1167029911" Left="1437" Top="643" Right="1666" Bottom="667" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//span[contains(@class, &apos;small-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMt2a3538" Key="{6A279B70-2ED7-4965-9C75-EA750FFF3504}">
+										<Image FileName="988240432" Left="1123" Top="351" Right="1666" Bottom="366" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/span[contains(@class, &apos;PPID&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{573BB445-9E67-4748-ABBB-D95B6C87AFA4}">
+										<Image FileName="2124376113" Left="1123" Top="234" Right="1289" Bottom="350" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div//ul/li[contains(@class, &apos;item-image&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cart-table&apos;]//div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="image5PieceDailyEssentials" Key="{BD7B446E-DE39-4D40-AD01-0D880A3252B4}">
+										<Image FileName="2124376113" Left="1123" Top="234" Right="1289" Bottom="350" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//ul/li/img[contains(@src, &apos;mb-5pc-kit-30-day.jpg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;product-img&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cart-table&apos;]//div/div/div/ul/li/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;cartsummary&apos;]//div//ul/li/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{74FEBBAA-AD50-4F91-8F6E-99C2BF411787}">
+										<Image FileName="-1896159101" Left="1268" Top="404" Right="1594" Bottom="465" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;7-Piece Youth Enhancing Face &amp; Neck Skincare System&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div//ul/li[contains(@class, &apos;item-details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{8C6EAC7D-85A9-45A1-8D01-541DE55011C0}">
+										<Image FileName="-1896159101" Left="1268" Top="407" Right="1556" Bottom="455" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;7-Piece Youth Enhancing Face &amp; Neck Skincare System&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/div/div/div[@id=&apos;cartsummary&apos;]//span[contains(@class, &apos;show&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwMeaningfulbeautyComSkinca" Key="{488017C6-41D9-418C-A422-306A7CADDB82}">
+								<Image FileName="1441643125" Left="9" Top="97" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{81527BFB-81B1-41CC-A21C-EDC332B1641A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.com/skincare/sas/core/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkSelect" Key="{638F2496-CC24-4086-9194-1453DC3E9000}">
+										<Image FileName="1441643125" Left="978" Top="526" Right="1032" Bottom="570" />
+										<TypeInfo Item0="{9BA94A29-E8B8-49DE-83E2-079B6C282E00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a[@role=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a[contains(@class, &apos;check-selection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sasSystem&apos;]//div[2]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/div[2]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSelect2" Key="{DF1C77FC-69DB-44CE-B981-0136ACBD4AD6}">
+										<Image FileName="-900079936" Left="978" Top="830" Right="1032" Bottom="874" />
+										<TypeInfo Item0="{9BA94A29-E8B8-49DE-83E2-079B6C282E00}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[3]//div[2]//a[contains(@class, &apos;check-selection&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProceedToCheckout" Key="{428F43F8-29FB-46DF-BB22-E7C380AEC3C8}">
+										<Image FileName="1410522868" Left="754" Top="749" Right="1145" Bottom="837" />
+										<TypeInfo Item0="{CE36E76F-6295-43A3-AC6B-D2E9B991E3C7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[7]/button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Proceed To Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[7]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUpgrade2" Key="{BB0D47F9-8AD4-4017-873C-5F8EE5B35BE8}">
+								<Image FileName="1281344134" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<TypeInfo Item0="{9E15B807-D195-4911-A3DF-3920384C6C0A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.meaningfulbeauty.com/upgrade" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formCompleteYour" Key="{C1798AF5-89A8-469D-B30B-A68C71BB7E47}">
+										<Image FileName="-190296619" Left="0" Top="234" Right="1899" Bottom="3014" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Complete Your&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;suppress&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNoThanks" Key="{719E78E1-2E70-48C4-84A5-0BA4A492320F}">
+										<Image FileName="-190296619" Left="1216" Top="831" Right="1333" Bottom="858" />
+										<TypeInfo Item0="{1DCBC192-47AC-4B4F-9AA3-ADEE63458F74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#no-upgrade" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;No, thanks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//form//div[2]//a[contains(@class, &apos;noupgradebtn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{5BDA4AA8-BA80-4B7B-AEE9-BB2051CC001C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{C738E4CC-3138-4868-BBA3-5E11D56EB007}">
+								<Image FileName="-1619324704" Left="0" Top="0" Right="1920" Bottom="50" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{FF7798CF-B243-4B1D-803F-8B048CA320F4}">
+										<Image FileName="-1619324704" Left="478" Top="0" Right="1277" Bottom="50" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{356C2C38-38D9-4C7F-940F-503B68A4170E}">
+												<Image FileName="-1619324704" Left="480" Top="0" Right="1277" Bottom="50" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{4C010F97-918D-471F-969C-FE5F21865196}">
+														<Image FileName="-1619324704" Left="480" Top="0" Right="1277" Bottom="50" />
+														<TypeInfo Item0="{F8FE55D3-0101-4929-BA9F-45AEC4191BDA}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{B9B6FA71-6881-4DC3-916E-7E9117845D0B}">
+								<Image FileName="71724690" Left="0" Top="0" Right="1920" Bottom="256" />
+								<TypeInfo Item0="{C0D14A71-0FA9-4583-BF50-9F7A3F520187}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="Item" Key="{9C851DFC-627E-49C0-956E-203A4FCF9436}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Item" Key="{36A0FD97-1D56-4B1E-B556-CDB346328F26}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Item" Key="{CCB1A503-A79A-4909-9893-E37464295886}">
+												<TypeInfo Item0="{F8320BEB-96FF-43B4-B65A-F8A3982B498F}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="notepad" Key="{E2F9DEA1-321D-455F-A524-6A0316855137}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{92FC6371-CCA5-4BBC-A69B-48DC16D57BF2}">
+								<Image FileName="-758639014" Left="0" Top="0" Right="1440" Bottom="748" />
+								<TypeInfo Item0="{6325BCB7-EE1F-4450-BB73-53F0E3AA7FA9}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgNotepad" Key="{DF8CC4CD-51BD-45D7-8413-D66D96CCC7E3}">
+								<Image FileName="-1856413710" Left="0" Top="0" Right="458" Bottom="177" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Notepad" Key="{BC23A155-81BB-476A-92B0-43AE11552921}">
+										<Image FileName="-1856413710" Left="9" Top="38" Right="449" Bottom="168" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Notepad" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{135C7A7B-E1B6-4197-8BA7-640413B57C94}">
+												<Image FileName="-1856413710" Left="349" Top="128" Right="436" Bottom="157" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="9" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnCancel" Key="{ACFAA7EC-63C1-40DD-9A2E-6F19A11644D8}">
+														<Image FileName="-1856413710" Left="349" Top="128" Right="436" Bottom="157" />
+														<TypeInfo Item0="{FE1E8034-11DB-48AC-9C4C-CFAB3FA21D5E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Cancel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C2DD3ECE-F923-4620-981E-724F51ABAADE}">
+			<Child Name="BrowserWindow" Owner="{BD08F174-8C88-4518-AB04-27682D2EFC06}" />
+			<Child Name="pageWwwMeaningfulbeautyOdev09Dw4" Owner="{387E1F8B-A235-4629-AEDE-AAC976D2007E}">
+				<Child Name="linkSelect" Owner="{1223F1BF-4148-4062-85BA-2EA5FDB9CC96}" />
+				<Child Name="buttonProceedToCheckout" Owner="{B93AE99C-1C8D-4A1F-A0FE-3CFE4C73CC6C}" />
+				<Child Name="linkSelect2" Owner="{10E3BD9D-E399-4377-A5C6-F089950F58D8}" />
+				<Child Name="linkSelect3" Owner="{D834690F-CBB0-4AE5-9C66-FC4077B78644}" />
+				<Child Name="link2" Owner="{2FE3C9C5-DF7A-4BA1-B22C-5284FC4C1086}">
+					<Child Name="textnode" Owner="{723430BC-B07C-42FB-8675-256531E6D6AE}" />
+					<Child Name="textnode22" Owner="{41C36C13-BECD-434A-A9F2-ABF9B3DF7930}" />
+				</Child>
+				<Child Name="link" Owner="{FFF0792E-AB27-4B9E-BDB3-BC808A9A626B}">
+					<Child Name="textnode2" Owner="{180C8916-CF75-41D4-830B-91FF2A23763F}" />
+				</Child>
+			</Child>
+			<Child Name="pageMyDrive" Owner="{BCB0D042-12C9-4F87-A382-4D4C9F2EE010}">
+				<Child Name="panelExcelSampledataXlsx" Owner="{B2B17C02-60C6-40F2-8EB2-F1F4C92821A4}" />
+				<Child Name="textnode" Owner="{86EA778F-6E60-47E4-9CA8-C31843B31029}" />
+				<Child Name="vg" Owner="{6DBE8C14-1FF0-4177-BC68-AF184EA96CBA}" />
+				<Child Name="panelSampledataXlsx" Owner="{3FF171C0-B30B-464B-A676-0BC28E6C00C8}" />
+				<Child Name="panelDownload" Owner="{38BE72EA-F7CA-437C-B8DD-D83B77B181DE}" />
+				<Child Name="panelDownload2" Owner="{D325B5A2-F878-4FE2-A608-303D97BAFB41}" />
+			</Child>
+			<Child Name="pageSampledataXlsxGoogleSheets" Owner="{34C98AEB-A3B0-487A-94A3-639158A1C90A}">
+				<Child Name="textboxRename" Owner="{07F3897D-4479-4472-A142-A53C3BA56D6D}" />
+				<Child Name="panel" Owner="{10E56978-158A-4868-AFED-3132C6E546DE}" />
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{8F1C6BF9-B11F-41A0-A17E-F51A3C05DBCF}">
+				<Child Name="ReBarWindow32" Owner="{3C85C3B2-7318-42DE-B0AB-D32BFAD7CDE3}">
+					<Child Name="MSTaskSwWClass" Owner="{5ADEA72D-9137-4DF3-8070-6B1881B64867}">
+						<Child Name="MSTaskListWClass" Owner="{FCE61635-B422-41BF-9200-8C3344DDA82B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{734EB609-436A-434A-961D-750A02C17E8D}" />
+			<Child Name="pageMeaningfulBeautyCindyCrawfor" Owner="{5B7054D6-D6A2-4F05-B92E-6E2C15063331}">
+				<Child Name="linkLearnMore" Owner="{29DEAF8B-1C40-47AA-BF1E-7B07DCB8C186}" />
+				<Child Name="Login" Owner="{67FA6444-90C9-4DF1-8566-7BA527B7EFD3}">
+					<Child Name="textboxUsername" Owner="{1E5A50DB-C684-45B8-98A5-116867A29584}" />
+					<Child Name="textboxPassword" Owner="{746AB7BB-B6BA-4A39-AB5E-ED1A4B376981}" />
+				</Child>
+			</Child>
+			<Child Name="pageUpgrade" Owner="{C16370A0-94FA-4A3E-AAB3-1D721EAAD7B8}">
+				<Child Name="formCompleteYour" Owner="{346444E1-4F26-4FDD-80EC-4EB54D47091E}">
+					<Child Name="linkNoThanks" Owner="{F45E3A4B-63F1-4373-95F5-07977CAB7EEE}" />
+					<Child Name="linkUpgradeNow" Owner="{12F8E799-17D2-4A8C-A4BC-323969EDE514}" />
+				</Child>
+			</Child>
+			<Child Name="pageCart" Owner="{9617CC98-19FA-46D5-96A7-70E6E9B6E22F}">
+				<Child Name="textnodeMain" Owner="{E810AF4B-B5C4-45C5-A423-F8895ADD978A}" />
+				<Child Name="textnode4995" Owner="{21A416E0-D967-4EF9-B091-492DA1C980C1}" />
+				<Child Name="textnodeMt2a3538" Owner="{6A279B70-2ED7-4965-9C75-EA750FFF3504}" />
+				<Child Name="textnode" Owner="{573BB445-9E67-4748-ABBB-D95B6C87AFA4}">
+					<Child Name="image5PieceDailyEssentials" Owner="{BD7B446E-DE39-4D40-AD01-0D880A3252B4}" />
+				</Child>
+				<Child Name="textnode2" Owner="{74FEBBAA-AD50-4F91-8F6E-99C2BF411787}">
+					<Child Name="textnode3" Owner="{8C6EAC7D-85A9-45A1-8D01-541DE55011C0}" />
+				</Child>
+			</Child>
+			<Child Name="pageWwwMeaningfulbeautyComSkinca" Owner="{488017C6-41D9-418C-A422-306A7CADDB82}">
+				<Child Name="linkSelect" Owner="{638F2496-CC24-4086-9194-1453DC3E9000}" />
+				<Child Name="linkSelect2" Owner="{DF1C77FC-69DB-44CE-B981-0136ACBD4AD6}" />
+				<Child Name="buttonProceedToCheckout" Owner="{428F43F8-29FB-46DF-BB22-E7C380AEC3C8}" />
+			</Child>
+			<Child Name="pageUpgrade2" Owner="{BB0D47F9-8AD4-4017-873C-5F8EE5B35BE8}">
+				<Child Name="formCompleteYour" Owner="{C1798AF5-89A8-469D-B30B-A68C71BB7E47}">
+					<Child Name="linkNoThanks" Owner="{719E78E1-2E70-48C4-84A5-0BA4A492320F}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{5BDA4AA8-BA80-4B7B-AEE9-BB2051CC001C}">
+			<Child Name="wndShell_TrayWnd" Owner="{C738E4CC-3138-4868-BBA3-5E11D56EB007}">
+				<Child Name="ReBarWindow32" Owner="{FF7798CF-B243-4B1D-803F-8B048CA320F4}">
+					<Child Name="MSTaskSwWClass" Owner="{356C2C38-38D9-4C7F-940F-503B68A4170E}">
+						<Child Name="MSTaskListWClass" Owner="{4C010F97-918D-471F-969C-FE5F21865196}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{B9B6FA71-6881-4DC3-916E-7E9117845D0B}" />
+			<Child Name="Item" Owner="{9C851DFC-627E-49C0-956E-203A4FCF9436}">
+				<Child Name="Item" Owner="{36A0FD97-1D56-4B1E-B556-CDB346328F26}">
+					<Child Name="Item" Owner="{CCB1A503-A79A-4909-9893-E37464295886}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="notepad" Owner="{E2F9DEA1-321D-455F-A524-6A0316855137}">
+			<Child Name="wndNotepad" Owner="{92FC6371-CCA5-4BBC-A69B-48DC16D57BF2}" />
+			<Child Name="dlgNotepad" Owner="{DF8CC4CD-51BD-45D7-8413-D66D96CCC7E3}">
+				<Child Name="Notepad" Owner="{BC23A155-81BB-476A-92B0-43AE11552921}">
+					<Child Name="CtrlNotifySink" Owner="{135C7A7B-E1B6-4197-8BA7-640413B57C94}">
+						<Child Name="btnCancel" Owner="{ACFAA7EC-63C1-40DD-9A2E-6F19A11644D8}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,190 @@
+﻿var PrePurchaseNew = require("PrePurchaseNew");
+var startTestNew = require("startTestNew");
+var permutationCombination = [];
+var upsell8combination = [];
+var MS_entryKitPPIDs = [];
+var fivePiecePPID;
+var sevenPiecePPID;
+var finalCombinations = [];
+var PrePurchaseUpsellPPIDSs = [];
+var MS_sasPPIDs = [];
+var lastCombination = [];
+
+function generatingEntryPPIDs(PPID)
+{ 
+  
+//Log.Message("generating upsell ppid")
+//Log.Message(PPID+"from another function");
+  
+    sevenPiecePPID=startTestNew.sheetPPID[0];
+    fivePiecePPID=startTestNew.sheetPPID[1];
+
+    for(var i=0;i<PPID.length;i++)
+    {
+      for(var j=0;j<MS_sasPPIDs.length;j++)
+      {
+        if(PPID.includes(MS_sasPPIDs[j]))
+        {
+          return  PrePurchaseUpsellPPIDSs[j];
+         }
+        
+         
+        else 
+        {
+          return PrePurchaseUpsellPPIDSs[j+1];
+        }
+      }
+    }
+    
+
+     } 
+function prepurchaseUpgrade()
+{ 
+ // generatingEntryPPIDs();
+  
+  
+  //Log.Message(sevenPiecePPID)
+  while(upsell8combination.length>0)
+  {
+    upsell8combination.pop();
+    finalCombinations.pop();
+    lastCombination.pop();
+  }
+ // var 7piecePPID = MS_entryKitPPIDs[0];
+  
+  PrePurchaseUpsellPPIDSs = startTestNew.sheetprePurchaseUpsellPPIDs;
+  MS_sasPPIDs = startTestNew.sheetPPID;
+  
+ var upsell =["yes","no"];
+   permutationCombination = PrePurchaseNew.importCombinaions;
+  Log.Message("4 permutations: "+permutationCombination);
+  
+  
+  // permutations for 8 buyflow
+  for(var i=0;i<permutationCombination.length;i++)
+  {
+    for(var j=0;j<upsell.length;j++)
+    {
+      upsell8combination.push(permutationCombination[i] +"-"+upsell[j]);
+    }
+  }
+  Log.Message("8 permutations before upgrade: "+upsell8combination);
+/*  
+  for(var i=0;i<upsell8combination.length;i++){
+       if(upsell8combination[i].includes("yes"))
+    {
+      //Verifying whether the product is 5 piece or not
+      if(upsell8combination[i].includes(fivePiecePPID))
+      {
+        Log.Message("upgrated to 6 piece")
+      }
+      else
+      {
+        Log.Message("upgrated to 8 piece")
+      }
+    }
+    else{
+     // var upSellValidationData=upsell8combination[i];
+        if(upsell8combination[i].includes(fivePiecePPID))
+      {
+        Log.Message("in 5 piece")
+      }
+      else
+      {
+        Log.Message("in 7 piece")
+      }
+    }
+  }
+  */
+  
+  for(var i=0;i<upsell8combination.length;i++)
+  {
+    for(var j=0;j<MS_sasPPIDs.length;j++)
+    {
+      if(upsell8combination[i].includes("yes"))
+      {
+        if(upsell8combination[i].includes(MS_sasPPIDs[j]))
+        {
+        //   Log.Message("upgrated to 8 piece")
+          // Log.Message(upsell8combination[i]+" - "+MS_sasPPIDs[j])
+           
+           var upgratedData=generatingEntryPPIDs(upsell8combination[i]);
+           
+       var replacedarray = upsell8combination[i].replace('yes',upgratedData);
+       finalCombinations.push(replacedarray);
+    //   Log.Message(finalCombinations+"-----------------------------------------------");
+          // Log.Message( generatingEntryPPIDs(upsell8combination[i])+"---------------------------");
+           
+           break;
+        }
+        else 
+        {
+          
+         // Log.Message("upgrated to 6 piece")
+          //Log.Message(upsell8combination[i]+" - "+MS_sasPPIDs[j])
+          var upgratedData=generatingEntryPPIDs(upsell8combination[i]);
+           
+       var replacedarray = upsell8combination[i].replace('yes',upgratedData);
+       finalCombinations.push(replacedarray);
+    //   Log.Message(finalCombinations+"----------------------------------------------------");
+          
+          
+          break;
+        }
+      }
+      else
+      {
+        if(upsell8combination[i].includes(MS_sasPPIDs[j]))
+        {
+         // Log.Message("in 7 piece");
+          //Log.Message(upsell8combination[i]+" - "+MS_sasPPIDs[j])
+          var upgratedData=generatingEntryPPIDs(upsell8combination[i]);
+          
+           
+       var replacedarray = upsell8combination[i].replace('no',upsell8combination[i].substring(0,8));
+       finalCombinations.push(replacedarray);
+          
+          break;
+        }
+        else 
+        {
+          // Log.Message("in 5 piece")
+           //Log.Message(upsell8combination[i]+" - "+MS_sasPPIDs[j])
+            var upgratedData=generatingEntryPPIDs(upsell8combination[i]);
+           
+       var replacedarray = upsell8combination[i].replace('no',upsell8combination[i].substring(0,8));
+       finalCombinations.push(replacedarray);
+           break;
+        }
+        
+      }
+      
+    }
+  }
+   //   Log.Message(finalCombinations);
+      var finalCombination1 = finalCombinations.toString().split(",");
+      for(var i=0;i<finalCombination1.length;i++)
+      {
+       // Log.Message(finalCombination1[i]+"splitted data")
+       const words = finalCombination1[i].split("-");
+       words[0] =words[2];
+       const replacedString = words.join("-")
+       var modifiedString = replacedString.slice(0,-9);
+       
+       modifiedString = modifiedString.replace('-',',');
+  //     modifiedString.trim();
+       lastCombination.push(modifiedString);
+      // Log.Message(modifiedString)
+     //  var finalCombination2.push(replacedString);
+      }
+      //Log.Message(finalCombination1);
+      
+    Log.Message("8 permutations after upgrade: "+lastCombination)
+  
+}
+
+
+
+module.exports.prepurchaseUpgrade = prepurchaseUpgrade;
+module.exports.generatingEntryPPIDs = generatingEntryPPIDs;
+module.exports.lastCombination = lastCombination;

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{22822DA2-2F02-46D2-8EAA-7ADD703E0DC6}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45056.3737962963" objectName="Aliases.browser.BrowserWindow" objectLeft="-9" objectTop="-9" objectRight="1929" objectBottom="1039" clickPointX="101" clickPointY="59" imageFileName="tcvi268032839081.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45056.373900463" objectName="Aliases.browser.pageWwwMeaningfulbeautyOdev09Dw4.linkSelect" objectLeft="969" objectTop="517" objectRight="1023" objectBottom="561" clickPointX="993" clickPointY="544" imageFileName="tcvi268914039083.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45056.3739467593" objectName="Aliases.browser.pageWwwMeaningfulbeautyOdev09Dw4.buttonProceedToCheckout" objectLeft="754" objectTop="932" objectRight="1145" objectBottom="1020" clickPointX="1001" clickPointY="982" imageFileName="tcvi269335939084.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

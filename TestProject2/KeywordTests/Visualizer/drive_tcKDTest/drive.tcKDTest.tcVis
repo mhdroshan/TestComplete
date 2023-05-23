@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4FBCD4F7-C203-47F0-A8A6-4D8AD1C799A1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45056.3850462963" objectName="Aliases.browser.BrowserWindow" objectLeft="-9" objectTop="-9" objectRight="1929" objectBottom="1039" clickPointX="109" clickPointY="64" imageFileName="tcvi365148439081.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45056.3850925926" objectName="Aliases.browser.pageMyDrive.panelExcelSampledataXlsx" objectLeft="417" objectTop="695" objectRight="548" objectBottom="717" clickPointX="484" clickPointY="713" imageFileName="tcvi365568739082.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45056.385162037" objectName="Aliases.browser.pageMyDrive.textnode" objectLeft="0" objectTop="88" objectRight="1920" objectBottom="1030" clickPointX="470" clickPointY="709" imageFileName="tcvi366201539084.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45056.385162037" objectName="Aliases.browser.pageMyDrive.panelExcelSampledataXlsx" objectLeft="417" objectTop="695" objectRight="548" objectBottom="717" clickPointX="470" clickPointY="709" imageFileName="tcvi366217139085.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

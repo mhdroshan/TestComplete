@@ -1,0 +1,53 @@
+﻿
+ 
+
+  function startSasValidationnew()
+  {
+  
+
+
+  for (let i = 0; i < sasPPIDs.length; i++) {
+  
+  
+        /*
+            aqObject.CheckProperty(Object, PropertyName, PropertyValue, CompareType);
+            Object - webElement -- //div[@data-tc-sasppid='"+sasPPIDs[i]+"']
+            PropertyName - Exists, Name, Size, innerText, etc.,
+            PropertyValue - true
+            CompareType - cmpEqual
+        */
+
+    
+  // Used to check the PPID   
+   
+      
+    aqObject.CheckProperty(Aliases.browser.pageWwwMeaningfulbeautyOdev09Dw4.FindElement("//div[@data-tc-sasppid='"+sasPPIDs[i]+"']"),"Exists", cmpEqual, true);
+   // aqObject.CheckProperty(Aliases.browser.pageBuyMeaningfulBeautySkincareP.FindElement("//div[@data-tc-sasppid='"+sasPPIDs[i]+"']"),"Exists", cmpEqual, true);
+  
+      if(sasPrice[i]!=sasStrikeOutPrice[i])
+      { 
+      
+  // Validating selling price 
+     
+        aqObject.CheckProperty(Aliases.browser.pageWwwMeaningfulbeautyOdev09Dw4.FindElement("//p[@data-tc-sas-kit-selling-price='"+sasPPIDs[i]+"']//*[contains(text(),'"+sasPrice[i]+"')]"),"Exists", cmpEqual, true);
+       // aqObject.CheckProperty(Aliases.browser.pageBuyMeaningfulBeautySkincareP.FindElement("//p[@data-tc-sas-kit-selling-price='"+sasPPIDs[i]+"']//*[contains(text(),'"+sasPrice[i]+"')]"),"Exists", cmpEqual, true);
+     }
+   
+   
+    aqObject.CheckProperty(Aliases.browser.pageWwwMeaningfulbeautyOdev09Dw4.FindElement("//p[@data-tc-sas-kit-strikeout-price='"+sasPPIDs[i]+"']//*[contains(text(),'"+sasStrikeOutPrice[i]+"')]"),"Exists", cmpEqual, true);
+   //  aqObject.CheckProperty(Aliases.browser.pageBuyMeaningfulBeautySkincareP.FindElement("//p[@data-tc-sas-kit-strikeout-price='"+sasPPIDs[i]+"']//*[contains(text(),'"+sasStrikeOutPrice[i]+"')]"),"Exists", cmpEqual, true);
+     //aqObject.CheckProperty(Aliases.browser.pageBuyMeaningfulBeautySkincareP2.FindElement("//p[@data-giftproduct='"+sasFreeGifts[i]+"']"),"Exists", cmpEqual, true);
+ 
+    }
+  Log.SaveResultsAs("E:\\MBTEST\\MBAutomation\\Report\\", lsHTML);
+  }
+   
+  //Log.Message(startSasValidation());
+
+
+
+
+  module.exports.startSasValidation = startSasValidation;
+  //module.exports.variable = sasPPIDs;
+  
+  

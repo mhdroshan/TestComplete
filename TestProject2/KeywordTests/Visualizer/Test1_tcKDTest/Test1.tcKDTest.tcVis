@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BFE64C89-317C-4565-961C-8950920EC570}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45057.4008101852" objectName="Aliases.browser.BrowserWindow" objectLeft="-9" objectTop="-9" objectRight="1929" objectBottom="1039" clickPointX="105" clickPointY="64" imageFileName="tcvi149669534681.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45057.4009143518" objectName="Aliases.browser.pageWwwMeaningfulbeautyComSkinca.linkSelect" objectLeft="969" objectTop="517" objectRight="1023" objectBottom="561" clickPointX="981" clickPointY="558" imageFileName="tcvi149765004683.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45057.4013078704" objectName="Aliases.browser.pageWwwMeaningfulbeautyComSkinca.linkSelect2" objectLeft="969" objectTop="821" objectRight="1023" objectBottom="865" clickPointX="984" clickPointY="841" imageFileName="tcvi150100154685.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45057.4015509259" objectName="Aliases.browser.pageWwwMeaningfulbeautyComSkinca.buttonProceedToCheckout" objectLeft="754" objectTop="749" objectRight="1145" objectBottom="837" clickPointX="1016" clickPointY="795" imageFileName="tcvi150312184688.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45057.4016203704" objectName="Aliases.browser.pageUpgrade2.formCompleteYour.linkNoThanks" objectLeft="1216" objectTop="831" objectRight="1333" objectBottom="858" clickPointX="1288" clickPointY="849" imageFileName="tcvi1503704646810.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

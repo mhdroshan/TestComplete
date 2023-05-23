@@ -1,0 +1,49 @@
+﻿// var sasTest = require("sasTest");
+  var startTestNew = require("startTestNew");
+  var US_SasPrePurchaseProductPPIDs = [];
+  var PrePurchase1 = require("PrePurchase1");
+ // var US_SasPrePurchaseGiftPPIDs = [];
+  var VM_cartProductPPID =[];
+  var upSellInfo = []; 
+  var MS_sasFreeGiftPPID =[];
+   var ExportCombinatuons =[];
+   var ExportFourCombinations = [];
+
+  function prePurchaseValidationNew()
+  {
+  var  MS_SAS_PPID=startTestNew.sheetPPID;
+ 
+    
+   //var PPID_count= MS_SAS_PPID.length;
+ 
+   
+// var giftIDcount = MS_sasFreeGiftPPID.length;
+  
+ while(ExportCombinatuons.length>0)
+ {
+   ExportCombinatuons.pop();
+ }
+    //permutations for 4 buyflows
+    for(var i = 0; i<MS_SAS_PPID.length; i++)
+    {
+       var  MS_SAS_GiftPPID=startTestNew.sheetGiftPPID[i]; 
+       var MS_sasFreeGiftPPID = MS_SAS_GiftPPID.split(",");
+    
+      for(var j = 0; j<MS_sasFreeGiftPPID.length; j++)
+      {
+      //  Log.Message(MS_sasFreeGiftPPID[j]+" - "+MS_SAS_PPID[i]);
+        ExportCombinatuons.push(MS_SAS_PPID[i]+"-"+MS_sasFreeGiftPPID[j]);
+        
+      }
+      
+    }
+  //  Log.Message("++"+ExportCombinatuons);
+   
+    PrePurchase1.prepurchaseUpgrade();
+   
+    
+  }
+  
+  
+  module.exports.prePurchaseValidationNew = prePurchaseValidationNew;
+  module.exports.importCombinaions = ExportCombinatuons;

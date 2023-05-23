@@ -1,0 +1,58 @@
+﻿ 
+
+function validateCart(kitCaseCounter,giftCaseCounter,upsellDecision,customObjectData)
+{ 
+   var sasPPID = customObjectData.sasPPIDs[kitCaseCounter];
+   var sasFreeGiftPPID = customObjectData.sasFreeGiftPPIDs[giftCaseCounter];
+   var kitListPrice = customObjectData.sasPrice[kitCaseCounter];
+   
+   var cartLineItemsPPIDS = [];
+   var priceList = [];
+   
+   Log.Message("sasPPID - " + sasPPID  + ", sasFreeGiftPPID - " + sasFreeGiftPPID + ", upsellDecision - " + upsellDecision +  ", kitListPrice - " + kitListPrice);
+  
+   /*
+      Retrieve values from app variable map
+   */
+      var pageObj = Sys.Browser().Page("*"); 
+      var lineItemsInCartArr = pageObj.contentDocument.Script.eval("app.variableMap.productLineItem");
+      Log.Message(lineItemsInCartArr.length+"---------------------");
+      var cartLength = lineItemsInCartArr.length; 
+            
+      for (var k=0 ;k<cartLength;k++ ){ 
+         var eachLineItem = pageObj.contentDocument.Script.eval("app.variableMap.productLineItem["+k+"]"); 
+         cartLineItemsPPIDS.push(eachLineItem.productID.toString());  
+         priceList.push(eachLineItem.productUnitPrice.toString());
+      }
+      
+     if(upsellDecision=='no'){
+     
+        startLineItemValidation(sasPPID,sasFreeGiftPPID,cartLineItemsPPIDS);
+        startLineItemPricingValidation(kitListPrice,priceList);
+      
+     } else if(upsellDecision=='yes'){
+  
+    }
+  
+}
+
+function startLineItemValidation(sasPPID,sasFreeGiftPPID,cartLineItemsPPIDS){ 
+   if(cartLineItemsPPIDS.indexOf(sasPPID)>=0){
+       Log.Message("Entry Kit selected in SAS page is present in cart : Test Passed "); 
+    } else{
+       Log.Error("Entry Kit selected in SAS page is not available in cart : Test Failed "); 
+    } 
+}
+    
+function startLineItemPricingValidation(kitListPrice,priceList){
+   Log.Message("Entry Kit Price - " + kitListPrice + ", priceList - " + priceList[0]); 
+ //  if(priceList.includes(kitListPrice)){
+ if (priceList.indexOf(kitListPrice.toString()) >= 0) {
+ //  if(priceList.some(price => parseFloat(price) === kitListPrice)){
+       Log.Message("Entry Kit Price Validated in Cart Page : Test Passed"); 
+    } else{
+       Log.Error("Entry Kit Price Validated in Cart Page : Test Failed"); 
+    } 
+}
+
+module.exports.validateCart = validateCart;

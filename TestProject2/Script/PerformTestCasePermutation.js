@@ -1,0 +1,55 @@
+﻿var eventSelections = require("EventSelections");
+var cartValidation = require("CartValidation");
+
+function identifyAllPossibleCombination(customObjectData){
+          Log.Message("Start creating all combination of user selection using KIT PPIDs and GIFT PPIDs");
+          Log.Message("SAS KIT PPIDs - "+customObjectData.sasPPIDs);
+          
+          Log.Message("SAS Free Gifts PPIDS - "+customObjectData.sasFreeGiftPPIDs);
+          
+         // SAS PPIDs - MT2A3540,MT2A3500 
+         // SAS Free Gifts PPIDS - MT2A4268,MT2A3649,MT2A4268,MT2A3649 
+         
+         for(var i = 0; i<customObjectData.sasPPIDs.length; i++)
+       // for(var i = 0; i<1; i++)
+          { 
+             for(var j = 0; j<customObjectData.sasFreeGiftPPIDs.length; j++)
+            
+                 // for(var j = 0; j<1; j++)
+                  {
+                    eventSelections.SASPageCheckBoxSelector(customObjectData.sasPPIDs[i],customObjectData.sasFreeGiftPPIDs[j]);
+                    eventSelections.clickOnProceedToCheckout();
+                    eventSelections.waitForUpgradePageToLoad();
+                    identifyPrePurchasePermutations(i,j,customObjectData);
+                  } 
+           }
+         
+         
+         
+}
+
+function identifyPrePurchasePermutations(kitCaseCounter,giftCaseCounter,customObjectData){ 
+      
+       var upsell =["no"];
+       for(var k=0;k<upsell.length;k++)
+        {
+           if(upsell[k]=='no'){
+             eventSelections.clickOnNoUpgrade(); 
+           }else{
+             eventSelections.clickOnYesUpgrade();
+           }
+           
+           eventSelections.waitForCheckoutPageToLoad(); 
+           
+           /*
+             Perform Cart Validation
+           */
+           cartValidation.validateCart(kitCaseCounter,giftCaseCounter,upsell[k],customObjectData);
+           
+        } 
+        
+        Browsers.Item(btChrome).Navigate("https://www.meaningfulbeauty.odev09.dw4.grdev.com/skincare/sas/core/");
+        
+}
+
+module.exports.identifyAllPossibleCombination = identifyAllPossibleCombination;

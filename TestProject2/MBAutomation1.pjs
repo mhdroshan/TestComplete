@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{2D0617F7-25E0-4F18-9E30-02CFD82966AF}">
+	<children>
+		<child name="MBAutomation1" key="{09FCAE36-1CDA-4C07-B1FA-D20CB613859D}" path="MBAutomation1.mds" />
+	</children>
+	<testItems key="{BC7AAC43-FAE0-4DA7-8B67-5A70377B237C}">
+		<children>
+			<testItem key="{09FCAE36-1CDA-4C07-B1FA-D20CB613859D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{63B0F535-F7A9-44F6-B4DE-E5E529AAF7C8}">
+		<data Version="4">
+			<Items>
+				<Variable Name="sasPPID" Type="Integer" Local="False">
+					<DefValue IntValue="122" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{2362DEE3-D386-405A-B245-7F14938D22C6}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
